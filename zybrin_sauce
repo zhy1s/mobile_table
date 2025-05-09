@@ -1,0 +1,50 @@
+script_key="paste your key in here";
+
+getgenv().zybrin = {
+    ['Camlock'] = {
+        ['Hit_Part'] = "HumanoidRootPart",
+        ['Predication'] = 0.1475,
+        ['Auto Prediction'] = {
+            ['Enabled'] = true,
+            ['Ping'] = {
+                ['20'] = 0.0,
+                ['30'] = 0.0,
+                ['40'] = 0.0,
+                ['50'] = 0.0,
+                ['60'] = 0.0,
+                ['70'] = 0.0,
+                ['80'] = 0.0,
+                ['90'] = 0.0
+                
+            }
+        },
+        
+        ['Smoothing'] = {
+            ['Enabled'] = false,
+            ['smoothness'] = 0.013
+        },
+        ['Offset'] = {
+            ['Jump'] = 1,
+            ['Fall'] = -5,
+        },
+        
+        ['Auto Shoot'] = true,
+        
+        ['Air_shot'] = {
+            ['Enabled'] = true,
+            ['Part'] = "Head"
+        },
+        
+    },
+    
+    ['Misc'] = {
+        ['Walkspeed'] = {
+            ['Enabled'] = true,
+            ['Speed'] = 3
+        }
+    }
+}
+
+
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b1f07386474006984cf38e76b407540b.lua"))()
