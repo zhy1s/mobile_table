@@ -47,4 +47,4 @@ getgenv().zybrin = {
 
 
 
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b1f07386474006984cf38e76b407540b.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/f604d4dab67ab12ceeccd41ee483c9cb.lua"))()
