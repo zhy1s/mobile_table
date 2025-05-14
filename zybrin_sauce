@@ -15,10 +15,8 @@ getgenv().zybrin = {
                 ['70'] = 0.0,
                 ['80'] = 0.0,
                 ['90'] = 0.0
-                
             }
         },
-        
         ['Smoothing'] = {
             ['Enabled'] = false,
             ['smoothness'] = 0.013
@@ -27,21 +25,21 @@ getgenv().zybrin = {
             ['Jump'] = 1,
             ['Fall'] = -5,
         },
-        
         ['Auto Shoot'] = true,
-        
         ['Air_shot'] = {
             ['Enabled'] = true,
             ['Part'] = "Head"
-        },
-        
+        }
     },
-    
     ['Misc'] = {
         ['Walkspeed'] = {
             ['Enabled'] = true,
             ['Speed'] = 3
         }
+    },
+    ['Triggerbot'] = {
+        ['Enabled'] = false,
+        ['Delay'] = 0.1
     }
 }
 
